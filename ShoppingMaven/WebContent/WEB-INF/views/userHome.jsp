@@ -4,15 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Shopping Cart</title>
+<title>Insert title here</title>
 </head>
 <body>
 
-Hello ${name}
-
-${message}
-
-
-<a href="getAllCategories">  Get all categories</a>
 </body>
 </html>
