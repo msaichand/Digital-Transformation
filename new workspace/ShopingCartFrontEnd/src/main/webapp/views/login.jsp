@@ -13,7 +13,7 @@
 Please login with your credentials  <br>
 
 	${message}
-	<form:form action="isValidUser" method="post">
+	<form:form action="../isValidUser" method="post">
 		<table>
 			<tr>
 				<td>User Name:</td>

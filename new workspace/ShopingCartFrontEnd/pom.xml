@@ -13,14 +13,6 @@
 		<dbh2.version>1.4.192</dbh2.version>
 	</properties>
 	<dependencies>
-	<dependency>
-	<groupId>com.niit</groupId>
-  <artifactId>ShopingCartBackEnd</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-	
-	
-	</dependency>
 		<!-- Spring dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -33,7 +25,7 @@
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
