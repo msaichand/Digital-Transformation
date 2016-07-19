@@ -1,0 +1,6 @@
+com\niit\shopingcart\controller\CartController.class
+com\niit\shopingcart\controller\CategoryController.class
+com\niit\shopingcart\controller\ProductController.class
+com\niit\shopingcart\controller\FileUploadController.class
+com\niit\shopingcart\controller\SupplierController.class
+com\niit\shopingcart\controller\UserController.class
