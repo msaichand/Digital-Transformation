@@ -78,7 +78,7 @@ public class UserDAOImpl implements UserDAO {
 	
 	@Transactional
 	public boolean isValidUser(String id, String password) {
-		String hql = "from User where id= '" + id + "' and " + " password ='" + password+"'";
+		String hql = "from UserDetails where id= '" + id + "' and " + " password ='" + password+"'";
 		Query query = sessionFactory.getCurrentSession().createQuery(hql);
 		
 		@SuppressWarnings("unchecked")

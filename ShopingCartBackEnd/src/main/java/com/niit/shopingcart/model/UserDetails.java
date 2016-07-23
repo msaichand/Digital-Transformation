@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 public class UserDetails {
 	
  
-	@Column (name="admin", columnDefinition="tinyinit default 0 ")
+	@Column (name="admin")
 	private byte admin;
 
 	public byte getAdmin() {
