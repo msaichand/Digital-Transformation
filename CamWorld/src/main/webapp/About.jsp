@@ -16,9 +16,10 @@
 <body>
 <div class="container"></div>
 <nav class="navbar navbar-default">
-<a href="index.jsp">HOME</a>
+<h4>
+<a href="index.jsp">HOME</a></h4>
 </nav>
 
-<h1> This is CAMWORLD where you can find N number of cameras</h1>
+<h4> This is CAMWORLD where you can find N number of cameras</h4>
 </body>
 </html>

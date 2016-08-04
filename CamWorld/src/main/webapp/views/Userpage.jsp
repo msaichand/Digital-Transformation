@@ -11,12 +11,18 @@
 <title>Shopping Cart</title>
 </head>
 <body>
-<!--  <a href="views/login.jsp">Categories</a> -->
-<a href="index.jsp">HOME</a>
+<div class="container"></div>
+<nav class="navbar navbar-default">
+<a href="\CamWorld/index.jsp">HOME</a>
 <h1> Categories</h1>
- <a href="Dslrcams.jsp">DSLR CAMS</a>
- <a href="Digicams.jsp">DIGI CAMS</a>
- <a href="webcams.jsp">WEB CAMS</a>
+</nav>
+<nav class="navbar navbar-default">
+<h3>
+ <a href="Dslrcams.jsp">DSLR CAMS</a><br>
+ <a href="Digicams.jsp">DIGI CAMS</a><br>
+ <a href="webcams.jsp">WEB CAMS</a><br>
+ </h3>
+ </nav>
  
  
 

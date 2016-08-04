@@ -27,13 +27,13 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li><a href="home.html">Home</a></li>
+				<li><a href="index.jsp">Home</a></li>
 				<li><a href="#">Products</a></li>
 				<li><a href="#">Deals</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="About.jsp">Contact</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="register.jsp"><span
+				<li><a href="views/register.jsp"><span
 						class="glyphicon glyphicon-user"></span>SIGNUP</a></li>
 				<!-- <li><a href="#"><span
 						class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li> -->
@@ -48,12 +48,12 @@
 		<table align="center" class="table">
 			<tr class="success">
 				<td>User Name:</td>
-				<td><input type="text" name="name"></td>
+				<td><input type="text" name="name" required="true" /></td>
 			</tr>
 
 			<tr>
 				<td>Password:</td>
-				<td><input type="password" name="password" /></td>
+				<td><input type="password" name="password"required="true" /></td>
 			</tr>
 			<tr class="active" align="center">
 				<td colspan="2"><button type="submit" id="form1"

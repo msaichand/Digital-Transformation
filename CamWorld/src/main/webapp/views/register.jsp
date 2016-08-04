@@ -10,41 +10,50 @@
 
 <html>
 <head>
+<script language="javascript"></script>
+ <script src="validation.js"></script> 
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Register User</title>
 </head>
-<body>
-
+<body >
+<nav class="navbar navbar-default">
 	<h1>Please fill the details</h1>
+	</nav>
 	<c:url var="addAction" value="/register"></c:url>
 
-	<form:form action="${addAction}" commandName="register" method="post">
+	<form:form action="${addAction}" commandName="register" method="post" onSubmit="return formValidation();">
 		<table align="center">
-			<tr>
+		<tr>
 				<td>User ID:</td>
-				<td><input type="text" name="id" path="id"></td>
+				<td><input type="text" id = "id" name="id" path="id" required="true"></td>
 			</tr>
 			<tr>
 				<td>User Name:</td>
-				<td><input type="text" name="name" path="name"></td>
+				<td><input type="text" id="name" name="name" path="name" required="true"></td>
 			</tr>
 			<tr>
 				<td>Password:</td>
-				<td><input type="text" name="password" path="password"></td>
+				<td><input type="password"  id="password" name="password" path="password" required="true"></td>
 			</tr>
 			<tr>
 				<td>Mobile No:</td>
-				<td><input type="text" name="mobile" path="mobile"></td>
+				<td><input type="text" id="mobile" name="mobile" path="mobile" required="true"></td>
 			</tr>
-			
+
 			<tr>
 				<td>Email:</td>
-				<td><input type="email" name="email" path="email"></td>
+				<td><input type="email" id="email" name="email" path="email" required="true"></td>
 			</tr>
 			<tr>
-				<td>Addres:</td>
-				<td><input type="texta" width="20" height="10" name="address" path="address"></td>
+				<td>Address:</td>
+				<td><input type="textarea" width="20" height="10"
+					id="address" name="address" path="address" required="true"></td>
 			</tr>
+
 			
 
 			<tr>
